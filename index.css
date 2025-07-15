@@ -726,7 +726,7 @@ font-size: 8px;
 .main1{
      
 width: 15vw;
-    
+    height: 50vh;
     padding: 2%;
   background-color: #754ef9;
   
@@ -737,7 +737,21 @@ width: 15vw;
   font-size: 10px;
   text-align: center;
 }
+.fellow-page {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
+}
 
+.cards{
+     
+    height: 25vh;
+    width: 30vw;
+}
 }
  
   @media screen and (min-width:912px){
@@ -809,10 +823,11 @@ width: 10vw;
    
 }
 
-.cards{
-     
-    height: 18vh;
-    width: 35vw;
+
+    .my-text{
+   padding-left:  40px;
+  font-size: 6px;
+  text-align: center;
 }
 
 }
