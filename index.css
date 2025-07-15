@@ -9,7 +9,7 @@ body{
 .main1{
      
 width: 10vw;
-    height: 0vh;
+    height: 50vh;
     padding: 2%;
   background-color: #754ef9;
   color: white;
@@ -425,7 +425,7 @@ font-size: 10px;
 .main1{
      
 width: 20vw;
-    height: 40vh;
+  
     padding: 2%;
   background-color: #754ef9;
   
@@ -620,7 +620,11 @@ font-size: 10px;
    height: 150px;
    display: block;
 }
-
+.cards{
+     
+    height: 25vh;
+    width: 30vw;
+}
 
 .images-text{
    text-align: center;
@@ -669,6 +673,15 @@ font-size: 10px;
 .text{
   font-size: 10px;
   
+}
+.fellow-page {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
 }
 
 .hire-header{
@@ -722,11 +735,43 @@ font-size: 8px;
 
 
 }
- @media screen and (min-width:375px){
+
+ /* @media screen and (max-width:328px){
 .main1{
      
 width: 15vw;
-    height: 50vh;
+  
+    padding: 2%;
+  background-color: #754ef9;
+  
+}
+
+.my-text{
+   padding-left:  50px;
+  font-size: 10px;
+  text-align: center;
+}
+.fellow-page {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 999;
+}
+
+.cards{
+     
+    height: 25vh;
+    width: 30vw;
+}
+}
+ @media screen and (max-width:375px){
+.main1{
+     
+width: 15vw;
+  
     padding: 2%;
   background-color: #754ef9;
   
@@ -754,11 +799,11 @@ width: 15vw;
 }
 }
  
-  @media screen and (min-width:912px){
+  @media screen and (max-width:912px){
 .main1{
      
 width: 18vw;
-    height: 40vh;
+
     padding: 2%;
   background-color: #754ef9;
   
@@ -766,7 +811,7 @@ width: 18vw;
 }
 }
 
- @media screen and (min-width:412px){
+ @media screen and (max-width:412px){
 .main1{
      
 width: 18vw;
@@ -785,7 +830,7 @@ width: 18vw;
 
 }
 
- @media screen and (min-width:768px){
+ @media screen and (max-width:768px){
 .main1{
      
 width: 10vw;
@@ -830,7 +875,7 @@ width: 10vw;
   text-align: center;
 }
 
-}
+} */
 
 
 @media (max-width:0px) {
