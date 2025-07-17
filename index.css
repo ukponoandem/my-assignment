@@ -609,7 +609,7 @@ border-radius: 50%;
     gap: 5px;
 }
 .imges{
-   max-width:80px;
+   max-width:90px;
     height: 90px;
     display: block;
     
@@ -618,7 +618,7 @@ border-radius: 50%;
 .text-col{
    padding-bottom: 0%; 
 text-align: center;
-   max-width: 10px; 
+   max-width: 190px; 
   
 }
 .text-img{
