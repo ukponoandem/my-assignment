@@ -603,14 +603,12 @@ border-radius: 50%;
 }
 
 .img{
-    max-width: 90px;
-    height: 70px;
-    display: block;
-    gap: 5px;
+    max-width: 95px;
+    height: 80px;
 }
 .imges{
-   max-width:90px;
-    height: 90px;
+   max-width:95px;
+    height: 95px;
     display: block;
     
 }
@@ -618,12 +616,12 @@ border-radius: 50%;
 .text-col{
    padding-bottom: 0%; 
 text-align: center;
-   max-width: 190px; 
+   max-width: 197px; 
   
 }
 .text-img{
     display: flex;
-    gap: 4px;
+    margin-left: 4px;
      margin-top: 4px;
      justify-content: center;
 }
@@ -634,19 +632,19 @@ text-align: center;
 font-size: 10px;
 }
 .imgs{
-   width: 19%;
-   height: 120px;
+   width: 23%;
+   height: 90px;
    display: block;
    
 } 
 .contain{
     display: flex;
-    gap:4px;
+    margin-right: 4px;
       margin-top: 1px;
 }
 .contains{
     display: flex;
-    gap: 4px;
+    margin-right: 4px;
     justify-content: center;
     margin-top: 4px;
 }
@@ -789,30 +787,34 @@ font-size: 8px;
 
 
 .imgs{
-   width: 28%;
-   height: 120px;
+   width: 26%;
+   height: 90px;
    display: block;
+    margin-right: 8px;
 } 
 .imges{
-   max-width:90px;
-    height: 90px;
-    display: block;
-    
+   max-width:80px;
+    height: 87px;
+    display: block;   
+}
+.img{
+    max-width: 82px;
+    height: 70px;
 }
 .text-col{
    padding-bottom: 0%; 
 text-align: center;
-   max-width: 183px; 
-  
+   max-width: 167px; 
+   margin-right: 0px;
 }
 .contain{
     display: flex;
-    gap:4px;
+    margin-right: 4px;
       margin-top: 1px;
 }
 .contains{
     display: flex;
-    gap: 4px;
+    margin-right: 4px;
     justify-content: center;
     margin-top: 4px;
 }
